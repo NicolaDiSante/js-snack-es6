@@ -1,13 +1,5 @@
 $(document).ready(function(){
 
-  // Dichiarare array e due variabili numero
-  let arrayLetter = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"];
-  let limiteMin = 2;
-  let limiteMax = 7;
-
-  
-
-  // Dichiarare la funzione con parametri: array, n1, n2
   const getPieceOfArray = (arr, min, max) => {
     // Dentro la funzione creare un array vuoto
     
@@ -21,6 +13,16 @@ $(document).ready(function(){
     return newArr;
 
   }
+
+  // Dichiarare array e due variabili numero
+  let arrayLetter = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"];
+  let limiteMin = 2;
+  let limiteMax = 7;
+
+  
+
+  // Dichiarare la funzione con parametri: array, n1, n2
+  
   console.log(getPieceOfArray(arrayLetter, limiteMin, limiteMax))
     
   })
